@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04FAF6C05C184C35DC111948F97985D017630117",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "04FAF6C05C184C35DC111948F97985D017630117" : 0,
+    "2A3299060C34576D2C22D4E7A90436470914A711" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E08B8F7-54FB-4052-8393-5D18F745C7DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "04FAF6C05C184C35DC111948F97985D017630117" : "myMeme%20copy%202\/",
+    "2A3299060C34576D2C22D4E7A90436470914A711" : "myMeme%20copy%202\/myMeme\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myMeme",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myMeme.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pamela032709\/memeRios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04FAF6C05C184C35DC111948F97985D017630117"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pamela032709\/myMeme.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A3299060C34576D2C22D4E7A90436470914A711"
+    }
+  ]
+}
