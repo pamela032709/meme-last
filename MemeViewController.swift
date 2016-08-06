@@ -26,7 +26,8 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
     @IBOutlet weak var pickImageButton: UIBarButtonItem!
     @IBOutlet weak var cameraButton: UIBarButtonItem!
     
-    //text atributess , will help me to define size , color tc
+    
+    
     let TextLabelDelegate = TextDelegate()
     let imagePicker = UIImagePickerController()
     
@@ -37,33 +38,28 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         super.viewDidLoad()
         
         shareButton.enabled = imageView.image != nil
-        
-        //Im trying to call one function that takes all the attributes for bottom and top field , I think the only thing will simplying all these lines of code is by using and if statement maybe but I just dont know how //
-        
-        
-        let textAttributes = [NSStrokeColorAttributeName : UIColor.blackColor(),
-                              NSForegroundColorAttributeName : UIColor.whiteColor(),
-                              NSFontAttributeName : UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
-                              NSStrokeWidthAttributeName : NSNumber(double: -3.0)]
-        //  UITextField.textAlignment = NSTextAlignment.Center )]
-        
-        topField.attributedPlaceholder = NSAttributedString(string: " TOP TEXT HERE!", attributes: textAttributes)
-        bottomField.attributedPlaceholder = NSAttributedString(string: "BOTTOM TEXT HERE", attributes: textAttributes)
-        
-        topField.defaultTextAttributes = textAttributes
-        bottomField.defaultTextAttributes = textAttributes
-        
-        topField.textAlignment = .Center
-        bottomField.textAlignment = .Center
-        
-        topField.delegate = TextLabelDelegate
-        bottomField.delegate = TextLabelDelegate
-        
         memeView.backgroundColor = UIColor.lightGrayColor()
-        
-        
+        setUpTextProperties(topField)
+        setUpTextProperties(bottomField)
         imagePicker.delegate = self
+        
     }
+    // this method will help me to avoid repetition for the top & bottom field so I set up their properties inside of it
+    
+    func setUpTextProperties ( textField: UITextField ){
+        
+      textField.defaultTextAttributes = [NSStrokeColorAttributeName : UIColor.blackColor(),
+                                         NSForegroundColorAttributeName : UIColor.whiteColor(),
+                                         NSFontAttributeName : UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
+                                         NSStrokeWidthAttributeName : NSNumber(double: -3.0)]
+        textField.textAlignment = .Center
+        
+        textField.delegate = TextLabelDelegate
+       //instead of an if statement , I will use a ternary conditional // example: let result = true == false ? : true
+        textField.placeholder = topField==textField ? " TOP TEXT HERE!":"BOTTOM TEXT HERE!"
+    }
+   
+    
     //keyboard subscriptions will let me access and controlkeyboard
     
     
@@ -202,9 +198,6 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         
         return memedImage
     }
-    
-    
-    
     
 }
 
