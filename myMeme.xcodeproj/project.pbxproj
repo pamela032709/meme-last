@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313B5E9D1D556EE500BBFFCF /* Meme3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B5E9C1D556EE500BBFFCF /* Meme3.swift */; };
 		31E166071D3DE53700E18933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E166061D3DE53700E18933 /* AppDelegate.swift */; };
 		31E166091D3DE53700E18933 /* MymemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E166081D3DE53700E18933 /* MymemeViewController.swift */; };
 		31E1660C1D3DE53700E18933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E1660A1D3DE53700E18933 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		31E166111D3DE53700E18933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E1660F1D3DE53700E18933 /* LaunchScreen.storyboard */; };
 		31E1661C1D3DE53700E18933 /* myMemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1661B1D3DE53700E18933 /* myMemeTests.swift */; };
 		31E166271D3DE53700E18933 /* myMemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E166261D3DE53700E18933 /* myMemeUITests.swift */; };
-		31E166351D3DF54900E18933 /* Meme2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E166341D3DF54900E18933 /* Meme2.swift */; };
 		31E166371D3DF57800E18933 /* TextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E166361D3DF57800E18933 /* TextDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313B5E9C1D556EE500BBFFCF /* Meme3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme3.swift; sourceTree = "<group>"; };
 		31E166031D3DE53700E18933 /* myMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E166061D3DE53700E18933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31E166081D3DE53700E18933 /* MymemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MymemeViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -49,7 +50,6 @@
 		31E166221D3DE53700E18933 /* myMemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E166261D3DE53700E18933 /* myMemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMemeUITests.swift; sourceTree = "<group>"; };
 		31E166281D3DE53700E18933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31E166341D3DF54900E18933 /* Meme2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme2.swift; sourceTree = "<group>"; };
 		31E166361D3DF57800E18933 /* TextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,7 @@
 			children = (
 				31E166061D3DE53700E18933 /* AppDelegate.swift */,
 				31E166081D3DE53700E18933 /* MymemeViewController.swift */,
-				31E166341D3DF54900E18933 /* Meme2.swift */,
+				313B5E9C1D556EE500BBFFCF /* Meme3.swift */,
 				31E166361D3DF57800E18933 /* TextDelegate.swift */,
 				31E1660A1D3DE53700E18933 /* Main.storyboard */,
 				31E1660D1D3DE53700E18933 /* Assets.xcassets */,
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313B5E9D1D556EE500BBFFCF /* Meme3.swift in Sources */,
 				31E166091D3DE53700E18933 /* MymemeViewController.swift in Sources */,
 				31E166371D3DF57800E18933 /* TextDelegate.swift in Sources */,
-				31E166351D3DF54900E18933 /* Meme2.swift in Sources */,
 				31E166071D3DE53700E18933 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
