@@ -58,6 +58,8 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
        //instead of an if statement , I will use a ternary conditional // example: let result = true == false ? : true
         textField.placeholder = topField==textField ? " TOP TEXT HERE!":"BOTTOM TEXT HERE!"
     }
+    
+    //all keyboard ......
    
     
     //keyboard subscriptions will let me access and controlkeyboard
